@@ -171,14 +171,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             // Un-share the material, too
             colorNode.geometry?.firstMaterial = colorNode.geometry?.firstMaterial!.copy() as? SCNMaterial
             // Change node's material without changing parent and other childs:
-            colorNode.geometry?.material(named:"body")?.diffuse.contents = UIColor(red:1.00, green:0.00, blue:0.12, alpha:1.0)
+            colorNode.geometry?.material(named:"body")?.diffuse.contents = UIColor(red:0.53, green:0.12, blue:0.17, alpha:1.0)
             print("case 1")
         case 2:
             colorNode.geometry = colorNode.geometry!.copy() as? SCNGeometry
             // Un-share the material, too
             colorNode.geometry?.firstMaterial = colorNode.geometry?.firstMaterial!.copy() as? SCNMaterial
             // Change node's material without changing parent and other childs:
-            colorNode.geometry?.material(named:"body")?.diffuse.contents = UIColor(red:0.29, green:0.53, blue:0.91 ,alpha:1.0)
+            colorNode.geometry?.material(named:"body")?.diffuse.contents = UIColor(red:0.15, green:0.20, blue:0.41, alpha:1.0)
              print("case 2")
         case 3:
             colorNode.geometry = colorNode.geometry!.copy() as? SCNGeometry
@@ -191,7 +191,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             // Un-share the material, too
             colorNode.geometry?.firstMaterial = colorNode.geometry?.firstMaterial!.copy() as? SCNMaterial
             // Change node's material without changing parent and other childs:
-            colorNode.geometry?.material(named:"body")?.diffuse.contents = UIColor(red:1.00, green:1.00, blue:0.40, alpha:1.0)
+            colorNode.geometry?.material(named:"body")?.diffuse.contents = UIColor(red:0.90, green:0.91, blue:0.22, alpha:1.0)
             print("case 4")
         case 5:
             colorNode.geometry = colorNode.geometry!.copy() as? SCNGeometry
@@ -205,7 +205,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             // Un-share the material, too
             colorNode.geometry?.firstMaterial = colorNode.geometry?.firstMaterial!.copy() as? SCNMaterial
             // Change node's material without changing parent and other childs:
-            colorNode.geometry?.material(named:"body")?.diffuse.contents = UIColor(red:128, green:0, blue:255 ,alpha:1.0)
+            colorNode.geometry?.material(named:"body")?.diffuse.contents = UIColor(red:0.49, green:0.10, blue:0.45, alpha:1.0)
             print("case 6")
         default:
             print("color unknown")
