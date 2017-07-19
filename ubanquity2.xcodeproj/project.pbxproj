@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA799D431F1F4BB3001EF651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA799D421F1F4A6A001EF651 /* Main.storyboard */; };
 		FA9EE0CF1F0E37550087D9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EE0CE1F0E37550087D9E0 /* AppDelegate.swift */; };
 		FA9EE0D11F0E37550087D9E0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9EE0D01F0E37550087D9E0 /* art.scnassets */; };
 		FA9EE0D31F0E37550087D9E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EE0D21F0E37550087D9E0 /* ViewController.swift */; };
-		FA9EE0D61F0E37550087D9E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9EE0D41F0E37550087D9E0 /* Main.storyboard */; };
 		FA9EE0D81F0E37550087D9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9EE0D71F0E37550087D9E0 /* Assets.xcassets */; };
 		FA9EE0DB1F0E37550087D9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9EE0D91F0E37550087D9E0 /* LaunchScreen.storyboard */; };
 		FA9EE0E61F0E37550087D9E0 /* ubanquity2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EE0E51F0E37550087D9E0 /* ubanquity2Tests.swift */; };
+		FAF7EA361F163C640055A3E1 /* images in Resources */ = {isa = PBXBuildFile; fileRef = FAF7EA351F163C640055A3E1 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA799D421F1F4A6A001EF651 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FA9EE0CB1F0E37550087D9E0 /* ubanquity2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ubanquity2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9EE0CE1F0E37550087D9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA9EE0D01F0E37550087D9E0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		FA9EE0D21F0E37550087D9E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA9EE0D51F0E37550087D9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA9EE0D71F0E37550087D9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9EE0DA1F0E37550087D9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9EE0DC1F0E37550087D9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA9EE0E11F0E37550087D9E0 /* ubanquity2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ubanquity2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9EE0E51F0E37550087D9E0 /* ubanquity2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ubanquity2Tests.swift; sourceTree = "<group>"; };
 		FA9EE0E71F0E37550087D9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF7EA351F163C640055A3E1 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +82,11 @@
 			isa = PBXGroup;
 			children = (
 				FA9EE0CE1F0E37550087D9E0 /* AppDelegate.swift */,
+				FAF7EA351F163C640055A3E1 /* images */,
 				FA9EE0D01F0E37550087D9E0 /* art.scnassets */,
 				FA9EE0D21F0E37550087D9E0 /* ViewController.swift */,
-				FA9EE0D41F0E37550087D9E0 /* Main.storyboard */,
 				FA9EE0D71F0E37550087D9E0 /* Assets.xcassets */,
+				FA799D421F1F4A6A001EF651 /* Main.storyboard */,
 				FA9EE0D91F0E37550087D9E0 /* LaunchScreen.storyboard */,
 				FA9EE0DC1F0E37550087D9E0 /* Info.plist */,
 			);
@@ -143,6 +146,9 @@
 		FA9EE0C31F0E37550087D9E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					3,
+				);
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Bloc;
@@ -180,10 +186,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF7EA361F163C640055A3E1 /* images in Resources */,
+				FA799D431F1F4BB3001EF651 /* Main.storyboard in Resources */,
 				FA9EE0D11F0E37550087D9E0 /* art.scnassets in Resources */,
 				FA9EE0DB1F0E37550087D9E0 /* LaunchScreen.storyboard in Resources */,
 				FA9EE0D81F0E37550087D9E0 /* Assets.xcassets in Resources */,
-				FA9EE0D61F0E37550087D9E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +232,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FA9EE0D41F0E37550087D9E0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA9EE0D51F0E37550087D9E0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA9EE0D91F0E37550087D9E0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -351,6 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WDRGUGJK47;
 				INFOPLIST_FILE = ubanquity2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bloc.io.ubanquity2;
@@ -364,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WDRGUGJK47;
 				INFOPLIST_FILE = ubanquity2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bloc.io.ubanquity2;
@@ -422,6 +423,7 @@
 				FA9EE0EC1F0E37550087D9E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA9EE0ED1F0E37550087D9E0 /* Build configuration list for PBXNativeTarget "ubanquity2Tests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +432,7 @@
 				FA9EE0EF1F0E37550087D9E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
