@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA0925BD1F20B93E00B5F225 /* ARKit-internship.app in Resources */ = {isa = PBXBuildFile; fileRef = FA9EE0CB1F0E37550087D9E0 /* ARKit-internship.app */; };
+		FA0925BE1F20B94300B5F225 /* ARKit-internshipTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = FA9EE0E11F0E37550087D9E0 /* ARKit-internshipTests.xctest */; };
+		FA35C6C01F20B6CF00AC2EA2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA9EE0E71F0E37550087D9E0 /* Info.plist */; };
 		FA799D431F1F4BB3001EF651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA799D421F1F4A6A001EF651 /* Main.storyboard */; };
+		FA7D60E01F20B4C300167632 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA9EE0DC1F0E37550087D9E0 /* Info.plist */; };
 		FA9EE0CF1F0E37550087D9E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EE0CE1F0E37550087D9E0 /* AppDelegate.swift */; };
 		FA9EE0D11F0E37550087D9E0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9EE0D01F0E37550087D9E0 /* art.scnassets */; };
 		FA9EE0D31F0E37550087D9E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9EE0D21F0E37550087D9E0 /* ViewController.swift */; };
@@ -29,14 +33,14 @@
 
 /* Begin PBXFileReference section */
 		FA799D421F1F4A6A001EF651 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		FA9EE0CB1F0E37550087D9E0 /* ubanquity2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ubanquity2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9EE0CB1F0E37550087D9E0 /* ARKit-internship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-internship.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9EE0CE1F0E37550087D9E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA9EE0D01F0E37550087D9E0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		FA9EE0D21F0E37550087D9E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA9EE0D71F0E37550087D9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9EE0DA1F0E37550087D9E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9EE0DC1F0E37550087D9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA9EE0E11F0E37550087D9E0 /* ubanquity2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ubanquity2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9EE0E11F0E37550087D9E0 /* ARKit-internshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-internshipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9EE0E51F0E37550087D9E0 /* ubanquity2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ubanquity2Tests.swift; sourceTree = "<group>"; };
 		FA9EE0E71F0E37550087D9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF7EA351F163C640055A3E1 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../images; sourceTree = "<group>"; };
@@ -63,8 +67,8 @@
 		FA9EE0C21F0E37550087D9E0 = {
 			isa = PBXGroup;
 			children = (
-				FA9EE0CD1F0E37550087D9E0 /* ubanquity2 */,
-				FA9EE0E41F0E37550087D9E0 /* ubanquity2Tests */,
+				FA9EE0CD1F0E37550087D9E0 /* ARKit-internship */,
+				FA9EE0E41F0E37550087D9E0 /* ARKit-internshipTests */,
 				FA9EE0CC1F0E37550087D9E0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,13 +76,13 @@
 		FA9EE0CC1F0E37550087D9E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA9EE0CB1F0E37550087D9E0 /* ubanquity2.app */,
-				FA9EE0E11F0E37550087D9E0 /* ubanquity2Tests.xctest */,
+				FA9EE0CB1F0E37550087D9E0 /* ARKit-internship.app */,
+				FA9EE0E11F0E37550087D9E0 /* ARKit-internshipTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA9EE0CD1F0E37550087D9E0 /* ubanquity2 */ = {
+		FA9EE0CD1F0E37550087D9E0 /* ARKit-internship */ = {
 			isa = PBXGroup;
 			children = (
 				FA9EE0CE1F0E37550087D9E0 /* AppDelegate.swift */,
@@ -90,24 +94,24 @@
 				FA9EE0D91F0E37550087D9E0 /* LaunchScreen.storyboard */,
 				FA9EE0DC1F0E37550087D9E0 /* Info.plist */,
 			);
-			path = ubanquity2;
+			path = "ARKit-internship";
 			sourceTree = "<group>";
 		};
-		FA9EE0E41F0E37550087D9E0 /* ubanquity2Tests */ = {
+		FA9EE0E41F0E37550087D9E0 /* ARKit-internshipTests */ = {
 			isa = PBXGroup;
 			children = (
 				FA9EE0E51F0E37550087D9E0 /* ubanquity2Tests.swift */,
 				FA9EE0E71F0E37550087D9E0 /* Info.plist */,
 			);
-			path = ubanquity2Tests;
+			path = "ARKit-internshipTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA9EE0CA1F0E37550087D9E0 /* ubanquity2 */ = {
+		FA9EE0CA1F0E37550087D9E0 /* ARKit-internship */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA9EE0EA1F0E37550087D9E0 /* Build configuration list for PBXNativeTarget "ubanquity2" */;
+			buildConfigurationList = FA9EE0EA1F0E37550087D9E0 /* Build configuration list for PBXNativeTarget "ARKit-internship" */;
 			buildPhases = (
 				FA9EE0C71F0E37550087D9E0 /* Sources */,
 				FA9EE0C81F0E37550087D9E0 /* Frameworks */,
@@ -117,14 +121,14 @@
 			);
 			dependencies = (
 			);
-			name = ubanquity2;
+			name = "ARKit-internship";
 			productName = ubanquity2;
-			productReference = FA9EE0CB1F0E37550087D9E0 /* ubanquity2.app */;
+			productReference = FA9EE0CB1F0E37550087D9E0 /* ARKit-internship.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA9EE0E01F0E37550087D9E0 /* ubanquity2Tests */ = {
+		FA9EE0E01F0E37550087D9E0 /* ARKit-internshipTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA9EE0ED1F0E37550087D9E0 /* Build configuration list for PBXNativeTarget "ubanquity2Tests" */;
+			buildConfigurationList = FA9EE0ED1F0E37550087D9E0 /* Build configuration list for PBXNativeTarget "ARKit-internshipTests" */;
 			buildPhases = (
 				FA9EE0DD1F0E37550087D9E0 /* Sources */,
 				FA9EE0DE1F0E37550087D9E0 /* Frameworks */,
@@ -135,9 +139,9 @@
 			dependencies = (
 				FA9EE0E31F0E37550087D9E0 /* PBXTargetDependency */,
 			);
-			name = ubanquity2Tests;
+			name = "ARKit-internshipTests";
 			productName = ubanquity2Tests;
-			productReference = FA9EE0E11F0E37550087D9E0 /* ubanquity2Tests.xctest */;
+			productReference = FA9EE0E11F0E37550087D9E0 /* ARKit-internshipTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -162,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA9EE0C61F0E37550087D9E0 /* Build configuration list for PBXProject "ubanquity2" */;
+			buildConfigurationList = FA9EE0C61F0E37550087D9E0 /* Build configuration list for PBXProject "ARKit-internship" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -175,8 +179,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA9EE0CA1F0E37550087D9E0 /* ubanquity2 */,
-				FA9EE0E01F0E37550087D9E0 /* ubanquity2Tests */,
+				FA9EE0CA1F0E37550087D9E0 /* ARKit-internship */,
+				FA9EE0E01F0E37550087D9E0 /* ARKit-internshipTests */,
 			);
 		};
 /* End PBXProject section */
@@ -188,9 +192,11 @@
 			files = (
 				FAF7EA361F163C640055A3E1 /* images in Resources */,
 				FA799D431F1F4BB3001EF651 /* Main.storyboard in Resources */,
+				FA7D60E01F20B4C300167632 /* Info.plist in Resources */,
 				FA9EE0D11F0E37550087D9E0 /* art.scnassets in Resources */,
 				FA9EE0DB1F0E37550087D9E0 /* LaunchScreen.storyboard in Resources */,
 				FA9EE0D81F0E37550087D9E0 /* Assets.xcassets in Resources */,
+				FA35C6C01F20B6CF00AC2EA2 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA0925BE1F20B94300B5F225 /* ARKit-internshipTests.xctest in Resources */,
+				FA0925BD1F20B93E00B5F225 /* ARKit-internship.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +234,7 @@
 /* Begin PBXTargetDependency section */
 		FA9EE0E31F0E37550087D9E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA9EE0CA1F0E37550087D9E0 /* ubanquity2 */;
+			target = FA9EE0CA1F0E37550087D9E0 /* ARKit-internship */;
 			targetProxy = FA9EE0E21F0E37550087D9E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -351,9 +359,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WDRGUGJK47;
-				INFOPLIST_FILE = ubanquity2/Info.plist;
+				INFOPLIST_FILE = "ARKit-internship/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bloc.io.ubanquity2;
+				PRODUCT_BUNDLE_IDENTIFIER = "bloc.io.ARKit-internship";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -365,9 +373,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WDRGUGJK47;
-				INFOPLIST_FILE = ubanquity2/Info.plist;
+				INFOPLIST_FILE = "ARKit-internship/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = bloc.io.ubanquity2;
+				PRODUCT_BUNDLE_IDENTIFIER = "bloc.io.ARKit-internship";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -385,7 +393,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ubanquity2.app/ubanquity2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-internship.app/ARKit-internship";
 			};
 			name = Debug;
 		};
@@ -400,14 +408,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ubanquity2.app/ubanquity2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-internship.app/ARKit-internship";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA9EE0C61F0E37550087D9E0 /* Build configuration list for PBXProject "ubanquity2" */ = {
+		FA9EE0C61F0E37550087D9E0 /* Build configuration list for PBXProject "ARKit-internship" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA9EE0E81F0E37550087D9E0 /* Debug */,
@@ -416,7 +424,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA9EE0EA1F0E37550087D9E0 /* Build configuration list for PBXNativeTarget "ubanquity2" */ = {
+		FA9EE0EA1F0E37550087D9E0 /* Build configuration list for PBXNativeTarget "ARKit-internship" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA9EE0EB1F0E37550087D9E0 /* Debug */,
@@ -425,7 +433,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA9EE0ED1F0E37550087D9E0 /* Build configuration list for PBXNativeTarget "ubanquity2Tests" */ = {
+		FA9EE0ED1F0E37550087D9E0 /* Build configuration list for PBXNativeTarget "ARKit-internshipTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA9EE0EE1F0E37550087D9E0 /* Debug */,

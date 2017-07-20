@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:ubanquity2.xcodeproj">
+      location = "self:/Users/macbook/Desktop/ubanquity2/ARKit-internship.xcodeproj">
    </FileRef>
 </Workspace>

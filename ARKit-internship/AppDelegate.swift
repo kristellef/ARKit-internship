@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ubanquity2
+//  ARKit-internship
 //
 //  Created by kristelle on 7/6/17.
 //  Copyright © 2017 Bloc. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ubanquity2
+//  ARKit-internship
 //
 //  Created by kristelle on 7/6/17.
 //  Copyright © 2017 Bloc. All rights reserved.
@@ -235,7 +235,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     
     @IBAction func pinchGesture(_ sender: UIPinchGestureRecognizer) {
         
-        var pinchScale = round(sender.scale * 1000)/1000000
+        let pinchScale = round(sender.scale * 1000)/1000000
         
         treeNode?.runAction(.customAction(duration: 0, action: { node, progress in
             node.physicsBody = nil
@@ -295,21 +295,21 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Reset tracking and/or remove existing anchors if consistent tracking is required
         
     }
-    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
-        // This visualization covers only detected planes.
-        guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
-        
-        // Create a SceneKit plane to visualize the node using its position and extent.
-        let plane = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
-        let planeNode = SCNNode(geometry: plane)
-        planeNode.position = SCNVector3Make(planeAnchor.center.x, 0, planeAnchor.center.z)
-        
-        // SCNPlanes are vertically oriented in their local coordinate space.
-        // Rotate it to match the horizontal orientation of the ARPlaneAnchor.
-        planeNode.transform = SCNMatrix4MakeRotation(-Float.pi / 2, 1, 0, 0)
-        
-        // ARKit owns the node corresponding to the anchor, so make the plane a child node.
-        node.addChildNode(planeNode)
-    }
+//    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+//        // This visualization covers only detected planes.
+//        guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
+//        
+//        // Create a SceneKit plane to visualize the node using its position and extent.
+//        let plane = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
+//        let planeNode = SCNNode(geometry: plane)
+//        planeNode.position = SCNVector3Make(planeAnchor.center.x, 0, planeAnchor.center.z)
+//        
+//        // SCNPlanes are vertically oriented in their local coordinate space.
+//        // Rotate it to match the horizontal orientation of the ARPlaneAnchor.
+//        planeNode.transform = SCNMatrix4MakeRotation(-Float.pi / 2, 1, 0, 0)
+//        
+//        // ARKit owns the node corresponding to the anchor, so make the plane a child node.
+//        node.addChildNode(planeNode)
+    
     
 }
